@@ -10,11 +10,11 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>spring-boot-web</module>
-        <module>spring-boot-utils</module>
-        <module>spring-boot-file</module>
-        <module>spring-cloud-eureka</module>
-        <module>spring-boot-sms</module>
+        <module>admin-web</module>
+        <module>admin-utils</module>
+        <module>admin-file</module>
+        <module>admin-eureka</module>
+        <module>admin-sms</module>
     </modules>
 
     <properties>
