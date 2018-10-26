@@ -1,4 +1,4 @@
-package com.hzhetun.example.enums;
+package cn.admin.file.enums;
 
 /**
  * @author cbk

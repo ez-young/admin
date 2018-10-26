@@ -1,7 +1,7 @@
-package com.hzhetun.example.mapper;
+package cn.admin.file.mapper;
 
+import cn.admin.file.pojo.SystemSmsLog;
 import com.baomidou.mybatisplus.mapper.BaseMapper;
-import com.hzhetun.example.pojo.SystemSmsLog;
 import org.springframework.stereotype.Repository;
 
 /**

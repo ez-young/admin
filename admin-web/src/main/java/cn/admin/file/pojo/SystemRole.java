@@ -1,4 +1,4 @@
-package com.hzhetun.example.pojo;
+package cn.admin.file.pojo;
 
 /**
  * @author cbk

@@ -1,9 +1,9 @@
-package com.hzhetun.example.controller;
+package cn.admin.file.controller;
 
-import com.hzhetun.example.service.SystemSmsLogService;
-import com.hzhetun.example.utils.RestfulResult;
-import com.hzhetun.example.utils.StringUtil;
-import com.hzhetun.example.utils.ValidationUtil;
+import cn.admin.file.service.SystemSmsLogService;
+import cn.admin.file.utils.RestfulResult;
+import cn.admin.file.utils.StringUtil;
+import cn.admin.file.utils.ValidationUtil;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -25,7 +25,7 @@ public class SystemSmsController {
     private SystemSmsLogService systemSmsLogService;
 
     @RequestMapping(value = "sendSms")
-    public RestfulResult smsSend(@RequestParam String mobiles,@RequestParam String content){
+    public RestfulResult smsSend(@RequestParam String mobiles, @RequestParam String content){
         logger.info("测试短信调用服务");
         if(StringUtil.isBlank(mobiles)){
             return RestfulResult.warning(-10,"手机号不能为空");

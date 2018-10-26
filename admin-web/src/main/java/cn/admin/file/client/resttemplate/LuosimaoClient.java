@@ -1,6 +1,6 @@
-package com.hzhetun.example.client.resttemplate;
+package cn.admin.file.client.resttemplate;
 
-import com.hzhetun.example.utils.RestfulResult;
+import cn.admin.file.utils.RestfulResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;

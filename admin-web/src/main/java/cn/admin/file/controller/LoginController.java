@@ -1,9 +1,9 @@
-package com.hzhetun.example.controller;
+package cn.admin.file.controller;
 
-import com.hzhetun.example.enums.UserStatusEnum;
-import com.hzhetun.example.pojo.SystemUser;
-import com.hzhetun.example.service.SystemUserService;
-import com.hzhetun.example.utils.RestfulResult;
+import cn.admin.file.enums.UserStatusEnum;
+import cn.admin.file.pojo.SystemUser;
+import cn.admin.file.utils.RestfulResult;
+import cn.admin.file.service.SystemUserService;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

@@ -1,4 +1,4 @@
-package com.hzhetun.example.config;
+package cn.admin.file.config;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;

@@ -1,4 +1,4 @@
-package com.hzhetun.example;
+package cn.admin.file;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

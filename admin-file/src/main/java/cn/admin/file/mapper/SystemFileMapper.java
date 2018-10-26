@@ -1,6 +1,6 @@
-package com.hzhetun.example.mapper;
+package cn.admin.file.mapper;
 
-import com.hzhetun.example.pojo.SystemFile;
+import cn.admin.file.pojo.SystemFile;
 import org.springframework.stereotype.Repository;
 
 /**

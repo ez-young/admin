@@ -1,7 +1,7 @@
-package com.hzhetun.example.client.feign;
+package cn.admin.file.client.feign;
 
-import com.hzhetun.example.hystrix.LuosimaoHystrix;
-import com.hzhetun.example.utils.RestfulResult;
+import cn.admin.file.hystrix.LuosimaoHystrix;
+import cn.admin.file.utils.RestfulResult;
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -19,5 +19,5 @@ public interface LuosimaoClient {
      * @return RestfulResult 返回的类型
      */
     @GetMapping(value = "/sms/sendSms")
-    RestfulResult sendSms(@RequestParam(name = "mobiles") String mobiles,@RequestParam(name = "content") String content);
+    RestfulResult sendSms(@RequestParam(name = "mobiles") String mobiles, @RequestParam(name = "content") String content);
 }

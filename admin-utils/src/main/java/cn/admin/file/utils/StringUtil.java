@@ -1,4 +1,4 @@
-package com.hzhetun.example.utils;
+package cn.admin.file.utils;
 
 import java.util.UUID;
 

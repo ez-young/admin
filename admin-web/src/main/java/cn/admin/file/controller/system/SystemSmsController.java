@@ -1,7 +1,7 @@
-package com.hzhetun.example.controller.system;
+package cn.admin.file.controller.system;
 
-import com.hzhetun.example.client.feign.LuosimaoClient;
-import com.hzhetun.example.utils.RestfulResult;
+import cn.admin.file.utils.RestfulResult;
+import cn.admin.file.client.feign.LuosimaoClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -18,7 +18,7 @@ public class SystemSmsController {
     private LuosimaoClient luosimaoClient;
 
     @RequestMapping(value = "sendSms")
-    public RestfulResult sendSms(@RequestParam String mobiles,@RequestParam String content){
+    public RestfulResult sendSms(@RequestParam String mobiles, @RequestParam String content){
         return luosimaoClient.sendSms(mobiles, content);
     }
 }

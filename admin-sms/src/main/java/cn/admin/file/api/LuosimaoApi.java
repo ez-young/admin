@@ -1,7 +1,7 @@
-package com.hzhetun.example.api;
+package cn.admin.file.api;
 
-import com.hzhetun.example.mapper.SystemSmsApiMapper;
-import com.hzhetun.example.pojo.SystemSmsApi;
+import cn.admin.file.mapper.SystemSmsApiMapper;
+import cn.admin.file.pojo.SystemSmsApi;
 import com.sun.jersey.api.client.Client;
 import com.sun.jersey.api.client.ClientResponse;
 import com.sun.jersey.api.client.WebResource;

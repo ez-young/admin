@@ -1,6 +1,6 @@
-package com.hzhetun.example.mapper;
+package cn.admin.file.mapper;
 
-import com.hzhetun.example.pojo.SystemSmsApi;
+import cn.admin.file.pojo.SystemSmsApi;
 import org.springframework.stereotype.Repository;
 
 /**

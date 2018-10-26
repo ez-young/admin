@@ -1,7 +1,7 @@
-package com.hzhetun.example.client.resttemplate;
+package cn.admin.file.client.resttemplate;
 
-import com.hzhetun.example.utils.RestfulResult;
-import com.hzhetun.example.utils.StringUtil;
+import cn.admin.file.utils.RestfulResult;
+import cn.admin.file.utils.StringUtil;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;

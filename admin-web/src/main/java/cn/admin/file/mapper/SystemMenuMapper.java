@@ -1,6 +1,6 @@
-package com.hzhetun.example.mapper;
+package cn.admin.file.mapper;
 
-import com.hzhetun.example.pojo.SystemMenu;
+import cn.admin.file.pojo.SystemMenu;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

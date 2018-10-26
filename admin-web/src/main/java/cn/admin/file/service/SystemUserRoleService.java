@@ -1,9 +1,6 @@
-package com.hzhetun.example.service;
+package cn.admin.file.service;
 
-import com.hzhetun.example.pojo.SystemUserRole;
-import org.springframework.cache.annotation.CacheConfig;
-import org.springframework.cache.annotation.CacheEvict;
-import org.springframework.cache.annotation.Cacheable;
+import cn.admin.file.pojo.SystemUserRole;
 
 import java.util.List;
 import java.util.Map;

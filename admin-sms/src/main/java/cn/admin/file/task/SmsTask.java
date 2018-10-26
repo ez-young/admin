@@ -1,8 +1,8 @@
-package com.hzhetun.example.task;
+package cn.admin.file.task;
 
-import com.hzhetun.example.api.LuosimaoApi;
-import com.hzhetun.example.pojo.SystemSmsLog;
-import com.hzhetun.example.service.SystemSmsLogService;
+import cn.admin.file.api.LuosimaoApi;
+import cn.admin.file.pojo.SystemSmsLog;
+import cn.admin.file.service.SystemSmsLogService;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;

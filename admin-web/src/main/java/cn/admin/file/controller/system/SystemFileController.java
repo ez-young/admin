@@ -1,8 +1,8 @@
-package com.hzhetun.example.controller.system;
+package cn.admin.file.controller.system;
 
-import com.hzhetun.example.client.resttemplate.FileClient;
-import com.hzhetun.example.pojo.SystemUser;
-import com.hzhetun.example.utils.RestfulResult;
+import cn.admin.file.pojo.SystemUser;
+import cn.admin.file.utils.RestfulResult;
+import cn.admin.file.client.resttemplate.FileClient;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

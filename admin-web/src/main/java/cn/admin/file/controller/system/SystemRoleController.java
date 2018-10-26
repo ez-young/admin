@@ -1,10 +1,10 @@
-package com.hzhetun.example.controller.system;
+package cn.admin.file.controller.system;
 
+import cn.admin.file.pojo.SystemRole;
+import cn.admin.file.utils.RestfulResult;
+import cn.admin.file.utils.StringUtil;
 import com.baomidou.mybatisplus.plugins.Page;
-import com.hzhetun.example.pojo.SystemRole;
-import com.hzhetun.example.service.SystemRoleService;
-import com.hzhetun.example.utils.RestfulResult;
-import com.hzhetun.example.utils.StringUtil;
+import cn.admin.file.service.SystemRoleService;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

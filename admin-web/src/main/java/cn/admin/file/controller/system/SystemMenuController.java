@@ -1,11 +1,11 @@
-package com.hzhetun.example.controller.system;
+package cn.admin.file.controller.system;
 
-import com.hzhetun.example.pojo.SystemIcon;
-import com.hzhetun.example.pojo.SystemMenu;
-import com.hzhetun.example.service.SystemIconService;
-import com.hzhetun.example.service.SystemMenuService;
-import com.hzhetun.example.utils.RestfulResult;
-import com.hzhetun.example.utils.StringUtil;
+import cn.admin.file.pojo.SystemIcon;
+import cn.admin.file.pojo.SystemMenu;
+import cn.admin.file.utils.RestfulResult;
+import cn.admin.file.utils.StringUtil;
+import cn.admin.file.service.SystemIconService;
+import cn.admin.file.service.SystemMenuService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;

@@ -1,10 +1,10 @@
-package com.hzhetun.example.service.serviceimpl;
+package cn.admin.file.service.serviceimpl;
 
+import cn.admin.file.service.SystemSmsLogService;
+import cn.admin.file.utils.StringUtil;
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
-import com.hzhetun.example.mapper.SystemSmsLogMapper;
-import com.hzhetun.example.pojo.SystemSmsLog;
-import com.hzhetun.example.service.SystemSmsLogService;
-import com.hzhetun.example.utils.StringUtil;
+import cn.admin.file.mapper.SystemSmsLogMapper;
+import cn.admin.file.pojo.SystemSmsLog;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -18,7 +18,7 @@ import java.util.List;
  * @date 2018/01/09
  */
 @Service
-public class SystemSmsLogServiceImpl implements SystemSmsLogService{
+public class SystemSmsLogServiceImpl implements SystemSmsLogService {
     @Autowired
     private SystemSmsLogMapper systemSmsLogMapper;
 

@@ -1,8 +1,8 @@
-package com.hzhetun.example.service.serviceimpl;
+package cn.admin.file.service.serviceimpl;
 
-import com.hzhetun.example.mapper.SystemMenuMapper;
-import com.hzhetun.example.pojo.SystemMenu;
-import com.hzhetun.example.service.SystemMenuService;
+import cn.admin.file.pojo.SystemMenu;
+import cn.admin.file.service.SystemMenuService;
+import cn.admin.file.mapper.SystemMenuMapper;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheConfig;

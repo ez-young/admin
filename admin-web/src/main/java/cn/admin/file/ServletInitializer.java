@@ -1,4 +1,4 @@
-package com.hzhetun.example;
+package cn.admin.file;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;

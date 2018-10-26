@@ -1,8 +1,8 @@
-package com.hzhetun.example.service.serviceimpl;
+package cn.admin.file.service.serviceimpl;
 
-import com.hzhetun.example.mapper.SystemFileMapper;
-import com.hzhetun.example.pojo.SystemFile;
-import com.hzhetun.example.service.SystemFileService;
+import cn.admin.file.mapper.SystemFileMapper;
+import cn.admin.file.service.SystemFileService;
+import cn.admin.file.pojo.SystemFile;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.Cacheable;

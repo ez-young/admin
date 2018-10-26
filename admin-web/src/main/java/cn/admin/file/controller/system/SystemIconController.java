@@ -1,6 +1,6 @@
-package com.hzhetun.example.controller.system;
+package cn.admin.file.controller.system;
 
-import com.hzhetun.example.service.SystemIconService;
+import cn.admin.file.service.SystemIconService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 

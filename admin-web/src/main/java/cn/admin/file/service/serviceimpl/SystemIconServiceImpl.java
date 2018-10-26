@@ -1,9 +1,9 @@
-package com.hzhetun.example.service.serviceimpl;
+package cn.admin.file.service.serviceimpl;
 
+import cn.admin.file.pojo.SystemIcon;
+import cn.admin.file.service.SystemIconService;
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
-import com.hzhetun.example.mapper.SystemIconMapper;
-import com.hzhetun.example.pojo.SystemIcon;
-import com.hzhetun.example.service.SystemIconService;
+import cn.admin.file.mapper.SystemIconMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.Cacheable;

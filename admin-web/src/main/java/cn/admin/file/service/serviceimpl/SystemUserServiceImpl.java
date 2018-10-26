@@ -1,11 +1,11 @@
-package com.hzhetun.example.service.serviceimpl;
+package cn.admin.file.service.serviceimpl;
 
-import com.hzhetun.example.mapper.SystemUserMapper;
-import com.hzhetun.example.pojo.SystemUser;
-import com.hzhetun.example.pojo.SystemUserRole;
-import com.hzhetun.example.service.SystemUserRoleService;
-import com.hzhetun.example.service.SystemUserService;
-import com.hzhetun.example.utils.StringUtil;
+import cn.admin.file.pojo.SystemUser;
+import cn.admin.file.pojo.SystemUserRole;
+import cn.admin.file.utils.StringUtil;
+import cn.admin.file.mapper.SystemUserMapper;
+import cn.admin.file.service.SystemUserRoleService;
+import cn.admin.file.service.SystemUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.CacheEvict;

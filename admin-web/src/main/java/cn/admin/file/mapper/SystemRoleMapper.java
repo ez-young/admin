@@ -1,7 +1,7 @@
-package com.hzhetun.example.mapper;
+package cn.admin.file.mapper;
 
+import cn.admin.file.pojo.SystemRole;
 import com.baomidou.mybatisplus.mapper.BaseMapper;
-import com.hzhetun.example.pojo.SystemRole;
 import org.springframework.stereotype.Repository;
 
 /**

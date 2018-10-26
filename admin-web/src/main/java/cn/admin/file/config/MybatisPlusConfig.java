@@ -1,4 +1,4 @@
-package com.hzhetun.example.config;
+package cn.admin.file.config;
 
 import com.baomidou.mybatisplus.plugins.PerformanceInterceptor;
 import org.mybatis.spring.annotation.MapperScan;

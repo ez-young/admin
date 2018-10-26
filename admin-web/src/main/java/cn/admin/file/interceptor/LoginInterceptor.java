@@ -1,9 +1,9 @@
-package com.hzhetun.example.interceptor;
+package cn.admin.file.interceptor;
 
-import com.hzhetun.example.pojo.SystemMenu;
-import com.hzhetun.example.pojo.SystemUser;
-import com.hzhetun.example.service.SystemMenuService;
-import com.hzhetun.example.service.SystemUserService;
+import cn.admin.file.pojo.SystemMenu;
+import cn.admin.file.pojo.SystemUser;
+import cn.admin.file.service.SystemMenuService;
+import cn.admin.file.service.SystemUserService;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

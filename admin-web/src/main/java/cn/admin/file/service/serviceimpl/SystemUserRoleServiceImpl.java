@@ -1,9 +1,9 @@
-package com.hzhetun.example.service.serviceimpl;
+package cn.admin.file.service.serviceimpl;
 
+import cn.admin.file.pojo.SystemUserRole;
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
-import com.hzhetun.example.mapper.SystemUserRoleMapper;
-import com.hzhetun.example.pojo.SystemUserRole;
-import com.hzhetun.example.service.SystemUserRoleService;
+import cn.admin.file.mapper.SystemUserRoleMapper;
+import cn.admin.file.service.SystemUserRoleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.CacheEvict;

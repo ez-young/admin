@@ -1,12 +1,12 @@
-package com.hzhetun.example.controller.system;
+package cn.admin.file.controller.system;
 
-import com.hzhetun.example.enums.UserStatusEnum;
-import com.hzhetun.example.pojo.SystemRole;
-import com.hzhetun.example.pojo.SystemUser;
-import com.hzhetun.example.service.SystemRoleService;
-import com.hzhetun.example.service.SystemUserRoleService;
-import com.hzhetun.example.service.SystemUserService;
-import com.hzhetun.example.utils.RestfulResult;
+import cn.admin.file.enums.UserStatusEnum;
+import cn.admin.file.pojo.SystemRole;
+import cn.admin.file.pojo.SystemUser;
+import cn.admin.file.utils.RestfulResult;
+import cn.admin.file.service.SystemRoleService;
+import cn.admin.file.service.SystemUserRoleService;
+import cn.admin.file.service.SystemUserService;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

@@ -1,11 +1,11 @@
-package com.hzhetun.example.controller;
+package cn.admin.file.controller;
 
+import cn.admin.file.service.SystemFileService;
+import cn.admin.file.utils.RestfulResult;
 import com.aliyun.oss.ClientException;
 import com.aliyun.oss.OSSException;
-import com.hzhetun.example.api.FileUploadApi;
-import com.hzhetun.example.pojo.SystemFile;
-import com.hzhetun.example.service.SystemFileService;
-import com.hzhetun.example.utils.RestfulResult;
+import cn.admin.file.api.FileUploadApi;
+import cn.admin.file.pojo.SystemFile;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -37,7 +37,7 @@ public class SystemFileController {
     private Integer port;
 
     @RequestMapping(value = "/upload")
-    public RestfulResult upload(MultipartFile file, @RequestParam Integer uid,@RequestParam String originFileName){
+    public RestfulResult upload(MultipartFile file, @RequestParam Integer uid, @RequestParam String originFileName){
         logger.info("调用的服务端口号:"+port);
         if(file==null || file.isEmpty()){
             return RestfulResult.warning(-10,"文件不能为空");

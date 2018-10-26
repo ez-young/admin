@@ -1,7 +1,7 @@
-package com.hzhetun.example.hystrix;
+package cn.admin.file.hystrix;
 
-import com.hzhetun.example.client.feign.LuosimaoClient;
-import com.hzhetun.example.utils.RestfulResult;
+import cn.admin.file.utils.RestfulResult;
+import cn.admin.file.client.feign.LuosimaoClient;
 import org.springframework.stereotype.Component;
 
 /**

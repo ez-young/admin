@@ -1,4 +1,4 @@
-package com.hzhetun.example.controller.error;
+package cn.admin.file.controller.error;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

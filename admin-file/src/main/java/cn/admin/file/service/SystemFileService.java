@@ -1,6 +1,6 @@
-package com.hzhetun.example.service;
+package cn.admin.file.service;
 
-import com.hzhetun.example.pojo.SystemFile;
+import cn.admin.file.pojo.SystemFile;
 
 /**
  * @author cbk

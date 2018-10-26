@@ -1,8 +1,8 @@
-package com.hzhetun.example.api;
+package cn.admin.file.api;
 
+import cn.admin.file.pojo.SystemFile;
+import cn.admin.file.service.SystemFileService;
 import com.aliyun.oss.OSSClient;
-import com.hzhetun.example.pojo.SystemFile;
-import com.hzhetun.example.service.SystemFileService;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
